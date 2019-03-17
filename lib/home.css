@@ -1,0 +1,230 @@
+body {
+  font-family: 'Catamaran' ,sans-serif;
+  background-color: #b1cdf9;
+} 
+
+/* HEADER */
+header{
+  background-color: #b1cdf9;
+  width: 100%;
+  height: 160px;
+  margin-bottom: 10px;
+}
+
+header .header-name{
+  color: #111;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav {
+  display: block;
+  width: fit-content;  
+  color: #111;
+  font-size: 16px;
+}
+
+header nav ul {
+  display: block;
+  margin: 0;
+  float: left;
+}
+
+header nav div  h1{
+  color: #404040;
+  font-size: 18px;
+  font-family: cursive;
+  margin:  0 auto;
+  padding-left: 16%; 
+  padding-bottom: 5%;
+
+} 
+header nav  ul li {
+  display: inline-block;
+   float: left;
+  list-style: none;
+  padding: 0 3px;
+  margin: 0 auto ; 
+  
+
+}
+
+header nav  ul li a{
+  color: #111;
+  font-size: 18px;
+  line-height: 60px;
+ 
+}
+
+/* desktop setting */
+
+@media only screen and (min-width : 1000px){
+  header .header-name{
+   text-align: left;
+   margin: 31px 0 ;
+   padding: 0 20px 0 40px;
+    border-right: 3px solid  #111;
+    float :left;
+    line-height: 38px;
+    font-size: 35px;
+  }  
+
+  
+  header nav {
+    margin: 0 ;
+    width: fit-content;    
+    font-size: 35px;
+    float: left;  
+  }
+  
+    header nav ul {
+
+      margin: 20px 0px;
+      float: left;
+      
+}
+ 
+  header nav  ul li {
+      float: left;
+    padding: 0 20px;
+  }
+ 
+
+}
+
+/*End desktop*/
+
+/* Main(index) */ 
+.index-banner{
+  margin: 1%;
+  width: 98%;
+  height: calc(100vh - 160px ) ;   /* 100value height - height */
+  background-image: url('picture/1.jpg');
+  background-repeat:  no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+
+
+  
+
+
+}
+.vertical-center{
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+.index-banner h2{
+  font-size: 60px; 
+  color: #fff;
+  font-weight :900;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  line-height: 70px;
+}   
+.index-banner h1{
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 28px; 
+  color: #fff;
+  font-weight :100;
+  font-style: italic;
+  line-height: 40px;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+
+}   
+ 
+.index-links div{
+  margin: 16px 16px 0;  /* 16 witdh and 16 height */
+  width: calc(100% - 32px);  
+  height: 100px;
+  background-color: #f2f2f2;
+
+  
+ }
+ .index-links div h3{
+/*  font  Catamaran*/ 
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 100px ;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+
+
+ } 
+
+  /* this is for table size */
+ .container{
+  margin:  5% 0px 4% 2%;
+  /* margin: 3%; */
+  font-size: 11px;
+ }
+ 
+/* desktop setting */
+
+ @media only screen and (min-width : 1000px){
+ 
+.index-banner{
+
+  width: 98%;
+  height: 450px;
+
+}  
+.index-banner h1{
+ display: block;
+ width:  560px;
+ margin: 0 auto;
+
+}   
+
+  .index-boxlink-1{
+
+     width: 1000px;
+     margin: 0 auto; 
+
+  }
+
+   /* this is for table size */
+ .container{
+  /* margin: 3%; */
+  font-size: 26px;
+ }
+ 
+ }
+ 
+ @media only screen and (max-width : 300px){
+ 
+  .container{
+    display: none;
+  }
+  main
+  {
+    font-size: 20px;
+  }
+}
+ /* End Desktop*/
+
+
+ /* FOOTER*/
+ footer {
+  width: 100%;
+  padding: 40px  0;
+  margin-top: 20px;
+  background-color: #111;
+
+ }
+
+ footer h3{
+    text-align: center;
+   font-size: 14px;
+   color: white;
+   
+ }

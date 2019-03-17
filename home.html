@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Welcome to the Gym</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/home.css">
+    <link   href="http://fonts.googleapis.com/css?family=Open+Sans"   rel="stylesheet"  type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <header>
+        <a href="home.html" class="header-name">  MyGym</a>
+        <nav> <!--  LINKS-->
+            <ul> 
+                <li>  <a href="#"><i class='fas fa-home'></i> About  </a> </li>
+                <li> <a href="#"><i class='fas fa-envelope'></i> contact   </a> </li> 
+                <li> <a href="logout.html"><i class='fas fa-sign-out-alt'></i> Logout   </a> </li>
+            </ul>
+            <div class="welcome-div">
+                    <h1><i class='fas fa-user'> </i>
+                        Wellcome username Test
+                </h1>
+            </div>
+		</nav>
+
+
+    </header>
+
+    <main >
+        <section class="index-banner">   
+            <div class="vertical-center">
+                <h2>
+                    Welcome To MYGYM , The best gym Bla Bla
+                </h2>
+                    <h1> In our gym you can login and add Activities and Manage them  and get Statistics </h1>
+                
+            </div>
+        </section>
+        <section class="index-links">
+            <a href="#"> 
+                    <div class="index-boxlink-1">
+                       <h3><i class='fas fa-home'> </i> Add Activity </h3> 
+                </div>
+            </a>
+            
+
+
+            <a href="#"> 
+                    <div class="index-boxlink-1">
+                       <h3><i class='far fa-calendar-alt '> </i> Edit Activity </h3> 
+                </div>
+            </a>
+
+            <a href="#"> 
+                    <div class="index-boxlink-1">
+                       <h3><i class='far fa-calendar-alt'> </i> Statistics </h3> 
+                </div>
+            </a>
+        </section>
+ 
+
+<div class="container">
+       
+         <table class="table table-bordered table-sm">
+                <thead class="thead-dark">
+                <tr>
+                    <th> Check To add </th>
+                    <th> id  </th>
+                    <th> Excricise name  </th>
+                    <th> num euqitment     </th>
+                    <th> Duration   </th>
+                    <th> Example  </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input type="checkbox" name="name1" id="ckElliptical"  class="checkbx"  onchange="checkAddAerobiActivity('ckElliptical','0001','elliptical','30 min');" /> &nbsp;</td>
+                    <td> 0001 </td>
+                    <td> elliptical </td>
+                    <td> 11 </td>
+                    <td> 30 min </td>
+                    <td> </td>
+
+                </tr>
+                   <tr>
+
+                       <td><input type="checkbox" name="name1"  id="jogging" class="checkbx" onchange="checkAddAerobiActivity('jogging','0002','jogging','40 min');" /> &nbsp </td>
+                       <td> 0002 </td>
+                       <td> jogging </td>
+                       <td> 22 </td>
+                       <td> 40 min  </td>
+                       <td> </td>
+
+                   </tr>
+                   <tr>
+
+                   <td><input type="checkbox" name="name1" id="cycling" class="checkbx" onchange="checkAddAerobiActivity('cycling','0003','cycling','60 min');"  />&nbsp;</td>
+
+                          <td> 0003 </td>
+                          <td> cycling </td>
+                          <td> 33   </td>
+                          <td> 60 min </td>
+                          <td>    </td>
+
+
+                      </tr>
+                   </tbody>
+                   
+                </table>     
+</div>
+
+
+
+
+
+</main>
+<footer>
+    <h3> All Right reserved to : moshe </h3>    
+</footer>
+</body>
+
+<script src="home.js"> </script>
+</html>
+
